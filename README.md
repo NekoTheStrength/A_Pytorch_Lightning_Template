@@ -29,6 +29,16 @@ When using tensorboard to record logs, although you can draw multiple lines in o
 
 Download the required data to the local and place it in the ./analysis/metrics/ path. Then adjust the parameters in ./analysis/make_plot.py to generate the required pictures. For specific usage, please refer to ./analysis/make_plot.py, or search for relevant tutorials online.
 
+## 主要的包依赖 Main package requirements
+
+- pytorch 2.1.0
+- lightning 2.1.2
+- seaborn 0.13.1
+
+注：最新版本的pytorch（2.1.2）也能够运行。我的工作电脑使用的torch版本为2.1.2，且此项目代码由该环境修改而来。此处使用的torch版本为我的个人电脑版本。
+
+Note: The latest version of pytorch (2.1.2) can also run. The torch version used on my work computer is 2.1.2, and the code of this project is modified from this environment. The torch version used here is the version of my personal computer.
+
 ## 最后 At last
 
 希望这个项目能帮到各位，并欢迎各位对此项目进行修改，以帮助更多人。
